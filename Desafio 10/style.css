@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'droid';
+    src: url('idroid.otf') format('opentype');
+}
+@font-face {
+    font-family: 'cordas';
+    src: url('hops-and-barley-c4-regular.ttf') format('truetype');
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    */
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+
+body{
+
+    background-color: #84E1AD;
+    
+}
+
+
+.cabecalho {
+    background: linear-gradient(180deg, #38CA79 16.62%, #1E6C41 85.61%);
+    background-color: #447E5E ;
+    box-shadow: 1px 4px 13px rgba(0, 0, 0, 0.397);
+    text-align: left;
+}
+.cabecalho-titulo {
+    text-align: center;
+    font-size: 45px;
+    font-weight: lighter;
+    color: white;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.322) ;
+    padding: 20px;
+    font-family: 'cordas';
+}
+.cabecalho-paragrafo {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.322) ;
+    padding-bottom: 12px;
+    margin: 5px;
+}
+.cabecalho-menu {
+    text-align: left;
+    display: flex;
+    gap: 15px;
+    padding: 8px;
+}
+
+.cabecalho-menu-link {
+    font-weight: 10px;
+    color: white;  
+    text-decoration: none;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.322) ; 
+    border-radius: 3px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.cabecalho-menu-link:hover {
+    background-color: #2dad6794;
+}
+
+.conteudo-main {   
+    border-width: 600px;
+    margin: auto;
+    padding: 16px;
+    background-color: white;
+    min-width: 400px;
+    max-width: 850px;
+    
+}
+
+.conteudo-curiosidade-titulo {
+    font-family: 'droid';
+    font-size: 18px;
+    color: #447E5E;
+}
+
+.conteudo-curiosidade-titulo-secundario {
+    font-family: 'droid';
+    font-size: 15px;
+    color: #447E5E;
+    background-image: linear-gradient(to right,#c3ecd479, white);
+}
+
+
+.conteudo-curiosidade-paragrafo {
+    text-indent: 20px;
+    text-align: justify;
+    font-size: 15px;
+    padding: 12px;
+    margin: 0;
+}
+
+.conteudo-curiosidade-foto {
+ 
+}
+
+.conteudo-curiosidade-imagem {
+    width: 100%;
+}
+.conteudo-curiosidade-imagem-android{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.conteudo-curiosidade-video {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.conteudo-curiosidade-videos {
+    background-color: #1E6C41;
+}
+
+
+
